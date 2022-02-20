@@ -1,0 +1,19 @@
+h1 {
+    font-size:20px !important;
+}
+
+.btn-primary:hover{
+    background-color: red;
+}
+
+canvas {
+    animation: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow:10px 10px 50px red;}
+    to{box-shadow:10px 10px 50px yellow;}
+
+}
